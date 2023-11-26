@@ -2,16 +2,16 @@ package Domain.Models;
 
 public class Societies extends Client{
 
-    public String CorporateName;
+    public String corporateName;
     public String cif;
 
 
     public String getCorporateName() {
-        return CorporateName;
+        return corporateName;
     }
 
     public void setCorporateName(String corporateName) {
-        CorporateName = corporateName;
+        this.corporateName = corporateName;
     }
 
     public String getCif() {

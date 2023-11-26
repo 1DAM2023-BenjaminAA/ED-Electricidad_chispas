@@ -3,6 +3,8 @@ package Domain.Models;
 public class Client {
 
     private Integer idClient;
+
+    public String Name;
     public String postal;
     public String population;
     public String province;
@@ -55,5 +57,13 @@ public class Client {
 
     public void setTelephone(String telephone) {
         this.telephone = telephone;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
     }
 }
